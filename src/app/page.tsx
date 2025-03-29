@@ -5,7 +5,7 @@ export default function Home() {
       <header className="py-8 text-center">
         <h1 className="text-5xl font-bold mb-2">Adam&apos;s Portfolio</h1>
         <p className="text-xl">
-          Bla | Bla | Bla
+          Bla | BlaAAA | Bla
         </p>
       </header>
 
