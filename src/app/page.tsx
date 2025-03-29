@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Header */}
       <header className="py-8 text-center">
-        <h1 className="text-5xl font-bold mb-2">Adam's Portfolio</h1>
+        <h1 className="text-5xl font-bold mb-2">Adam&apos;s Portfolio</h1>
         <p className="text-xl">
           Bla | Bla | Bla
         </p>
@@ -90,7 +90,7 @@ export default function Home() {
       <footer className="py-8 text-center bg-gray-800">
         <h2 className="text-2xl font-bold mb-2">Get In Touch</h2>
         <p className="mb-4">
-          Have a project in mind or just want to say hi? Reach out and let's
+          Have a project in mind or just want to say hi? Reach out and let&apos;s
           connect!
         </p>
         <a
