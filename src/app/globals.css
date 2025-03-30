@@ -1,24 +1,24 @@
+/* src/app/globals.css */
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #3b82f6; /* Light mode primary */
+  --secondary: #9333ea; /* Light mode secondary */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1e1e1e;
+    --foreground: #d4d4d4;
+    --primary: #007acc;
+    --secondary: #c586c0; /* A subtle purple/pink accent */
   }
 }
 
+/* Use these variables in base styles */
 body {
   background: var(--background);
   color: var(--foreground);
